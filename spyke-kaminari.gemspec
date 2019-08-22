@@ -1,12 +1,12 @@
-Gem::Specification.new('spyke-kaminari', '0.0.4') do |spec|
+Gem::Specification.new('spyke-kaminari', '0.0.7') do |spec|
   spec.authors  = ['Todd Mazierski']
   spec.email    = ['todd@generalassemb.ly']
   spec.homepage = 'https://github.com/generalassembly/spyke-kaminari'
   spec.summary  = 'Kaminari pagination for Spyke models'
   spec.files    =  Dir['lib/**/*']
 
-  spec.add_runtime_dependency 'spyke', '~>  3.1'
-  spec.add_runtime_dependency 'activesupport', '~> 4'
+  spec.add_runtime_dependency 'spyke', '>= 5.3.4'
+  spec.add_runtime_dependency 'activesupport', '>= 5'
 
   spec.add_development_dependency 'rspec', '3.1.0'
   spec.add_development_dependency 'pry', '0.10.1'
